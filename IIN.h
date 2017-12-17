@@ -5,8 +5,8 @@
 
 namespace IIN
 {
-	static void DataToIIN(char den[3], char mes[3], char god[5], char pol[8]);
-	static void IINToData(char iin[13]);
+	void DataToIIN(char den[3], char mes[3], char god[5], char pol[8]);
+	void IINToData(char iin[13]);
 }
 
 #endif
